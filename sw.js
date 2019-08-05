@@ -1,6 +1,5 @@
-console.log('Service Worker: Registered');
-
 let staticCacheName = 'restaurant-static-v1';
+
 
 //Listen for event fired when sw installed
 self.addEventListener('install', function(e) {
@@ -8,14 +7,14 @@ self.addEventListener('install', function(e) {
 		//Cache an array of file names for later use
 		caches.open('staticCacheName').then(function(cache) {
 			return cache.addAll([
-					'/',
-					'/index.html',
-					'/restaurant.html',
-					'/css/styles.css',
-					'/js/dbhelper.js', 
-					'/js/main.js', 
-					'/js/restaurant_info.js',
-					'./js/sw_register.js',
+					'./',
+					'./index.html',
+					'./restaurant.html',
+					'./css/styles.css',
+					'./js/dbhelper.js', 
+					'./js/main.js', 
+					'./js/restaurant_info.js',
+					//'./js/sw_register.js',
 					'./img/1.jpg',
 					'./img/2.jpg',
 					'./img/3.jpg',
@@ -42,9 +41,9 @@ self.addEventListener('fetch', function(e) {
 				console.log('Could not find ', e.request, ' in cache, FETCHING!');
 				return fetch(e.request)
 				.then(function(response) {
-					const clonedresponse = response.clone();
+					const clonedResponse = response.clone();
 					caches.open('staticCacheName').then(function(cache) {
-						cache.put(e.request, clonedresponse);
+						cache.put(e.request, clonedResponse);
 					})
 					return response;
 				})
