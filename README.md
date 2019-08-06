@@ -4,8 +4,9 @@
 ## Table of Contents
 * [Description](#description)
 * [Project Instructions](#project-instructions)
-* [How to Run the Application](how-to-run-the-application)
-* [Code Dependencies](code-dependencies)
+* [How to Run the Application](#how-to-run-the-application)
+* [Code Dependencies](#code-dependencies)
+* [Credits](#credits)
 
 ### Description
 This project was created for the Udacity Front-End Develop Nanodegree. 
@@ -27,6 +28,8 @@ To run the application, you need to follow these steps:
 * [Project Restaurant Reviews (Stage 1) Starter Code](https://github.com/udacity/mws-restaurant-stage-1/) 
 * [Normalize.css](https://necolas.github.io/normalize.css/)
 
+## Credits
+* Thank you to [Matthew Cranford](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-1-map-api/) for his walk-through tutorial. Part 4 was extremely helpful with the Service Worker coding process. 
 
 
 
