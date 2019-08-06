@@ -24,8 +24,8 @@ To run the application, you need to follow these steps:
 	* With your server running, visit the site: `http://localhost:8000`.
 
 ### Code Dependencies
-	* [Project Restaurant Reviews (Stage 1) Starter Code](https://github.com/udacity/mws-restaurant-stage-1/) 
-	* [Normalize.css](https://necolas.github.io/normalize.css/)
+	* [Project Restaurant Reviews (Stage 1) Starter Code](https://github.com/udacity/mws-restaurant-stage-1/ Project Starter Code) 
+	* [Normalize.css](https://necolas.github.io/normalize.css/ Normalize CSS)
 
 
 
